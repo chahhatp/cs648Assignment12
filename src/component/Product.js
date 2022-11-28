@@ -4,12 +4,12 @@ import {ProductForm} from "./form/ProductForm";
 import {useState} from "react";
 
 const PRODUCTS = {
-    '1': {id: 1, category: 'Fashion', price: '$45.99', name: 'Tops'},
-    '2': {id: 2, category: 'Fashion', price: '$50', name: 'Coats'},
-    '3': {id: 3, category: 'Furniture', price: '$300', name: 'Chair'},
-    '4': {id: 4, category: 'Furniture', price: '$865', name: 'Sofa'},
-    '5': {id: 5, category: 'Music', price: '$1,600', name: 'Guitar'},
-    '6': {id: 6, category: 'Fashion', price: '$352', name: 'Purse'}
+    '1': {id: 1, category: 'Music', price: '$459.99', name: 'Clarinet'},
+    '2': {id: 2, category: 'Music', price: '$5,000', name: 'Cello'},
+    '3': {id: 3, category: 'Music', price: '$4,500', name: 'Tuba'},
+    '4': {id: 4, category: 'Furniture', price: '$799', name: 'Chaise Lounge'},
+    '5': {id: 5, category: 'Furniture', price: '$1,300', name: 'Dining Table'},
+    '6': {id: 6, category: 'Furniture', price: '$100', name: 'Bean Bag'}
 };
 export const Product = () => {
     const [products, setProducts] = useState(PRODUCTS);
